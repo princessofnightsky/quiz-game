@@ -1,0 +1,122 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 100% 135%;
+    overflow: auto;
+    background-color: #faf9c6;
+    
+}
+.quiz-container {
+    max-width: 600px;
+    margin: 0px auto;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(242, 240, 245, 0.541);
+    background-image: linear-gradient(cyan,blue);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+
+}
+h1 {
+    text-align: center;
+}
+.question {
+    color: #e2f10afc;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.options {
+    
+    display: flex;
+    display: absolute;
+    padding: 0px;
+    list-style-type: none;
+    
+    
+}
+
+.option{
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ee3939;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 7px;
+    width: 130px;
+    height: 150px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-style: italic;
+    justify-content: center;
+    background-color:rgb(252, 174, 200)
+
+
+}
+
+.option:hover {
+    background-color: rgba(237, 18, 245, 0.89);
+    color: white;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ece911;
+    color: #f8f6f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 24px;
+    justify-content: center;
+}
+button:hover {
+    background-color: #b38300;
+}
+.heading {
+    color: cyan;
+}
+.image{
+    justify-content: center;
+}
+.optionimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-bottom: 20px;
+        width: 100%;
+    
+}
+
+.options-container{
+    justify-content: center;
+    padding-left: 20px;
+}
+.start-screen{
+    max-width: 500px;
+    margin: 50px auto;
+    margin-top: 150px;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(242, 240, 245, 0.541);
+    background-image: linear-gradient(cyan,blue);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    height: auto;
+}
+.start-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 30px;
+    margin-left: 95px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
