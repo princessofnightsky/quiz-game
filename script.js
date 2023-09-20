@@ -59,9 +59,21 @@ document.addEventListener('DOMContentLoaded', function() {
         const correct = document.getElementById("correct");
         const wrong = document.getElementById("wrong");
         const prob = document.getElementById("problem");
+        const video = document.querySelector('video');
         wrong.style.display = "none";
         correct.style.display = "none";
         nextButton.style.display = "none";
+
+         // Play the video
+        function playVideo() {
+            video.play();
+        }
+
+        // Pause the video
+        function pauseVideo() {
+            video.pause();
+        }
+
         
         // Function to display the current question and options
         function displayQuestion() {
@@ -130,6 +142,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
                 nextButton.style.display = "none";
                 prob.style.display = "none";
+                // Displaying the video
+                if (score < questions.length) {
+                    // Display the video
+                    video.style.display = "block";
+                }
             }
         });
         
