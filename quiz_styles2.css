@@ -1,9 +1,9 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Outfit', sans-serif;
     background-repeat: no-repeat;
     background-size: 100% 135%;
     overflow: auto;
-    background-color: #faf9c6;
+    background-color: rgb(221, 202, 29);
     
 }
 .quiz-container {
@@ -64,7 +64,7 @@ button {
     margin: 20px auto;
     padding: 10px 20px;
     background-color: #ece911;
-    color: #f8f6f0;
+    color: rgb(225,27,27);
     border: none;
     border-radius: 5px;
     cursor: pointer;
